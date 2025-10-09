@@ -1,3 +1,3 @@
 # TrajSelector
 
-We will release paper and code soon.
+We will release paper **TrajSelector** and code soon.
