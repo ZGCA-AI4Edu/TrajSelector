@@ -8,7 +8,7 @@ import Banner from "./Banner.vue"
 const logo = ''
 
 // 标题
-const title = 'Long-Short Chain-of-Thought Mixture Supervised Fine-Tuning Eliciting Efficient Reasoning in Large Language Models'
+const title = 'TrajSelector: Harnessing Latent Representations for Efficient and Effective Best-of-$N$ in Large Reasoning Model'
 
 // 标题颜色
 const title_color = '#000000'
@@ -27,20 +27,38 @@ const authors = [
   {
     name: "Bin Yu",
     icon: "",
-    homepage: "https://github.com/yubinCloud",
-    address_flag: "1,3"
+    homepage: "",
+    address_flag: "1,2"
   },
   {
-    name: "Hang Yuan",
-    icon: "",
-    homepage: "https://github.com/Faustrazor",
-    address_flag: "2,3"
-  },
-  {
-    name: "Yuliang Wei",
+    name: "Xinming Wang",
     icon: "",
     homepage: "",
-    address_flag: "1",
+    address_flag: "2,4"
+  },
+  {
+    name: "Shijie Lian",
+    icon: "",
+    homepage: "",
+    address_flag: "2,5"
+  },
+  {
+    name: "Haotian Li",
+    icon: "",
+    homepage: "",
+    address_flag: "1"
+  },
+  {
+    name: "Changti Wu",
+    icon: "",
+    homepage: "",
+    address_flag: "2,6"
+  },
+  {
+    name: "Ruina Hu",
+    icon: "",
+    homepage: "",
+    address_flag: "1,2"
   },
   {
     name: "Bailing Wang",
@@ -49,16 +67,16 @@ const authors = [
     address_flag: "1",
   },
   {
-    name: "Weizhen Qi",
+    name: "Yuliang Wei",
     icon: "",
     homepage: "",
-    address_flag: "3,4,*",
+    address_flag: "1",
   },
   {
     name: "Kai Chen",
     icon: "",
     homepage: "",
-    address_flag: "3,4",
+    address_flag: "2,3",
   },
 ]
 
@@ -72,21 +90,33 @@ const addresses = [
   },
   {
     address_flag: "2",
-    name: "East China Normal University",
-    icon: "./ECNU.jpg",
-    homepage: "https://www.ecnu.edu.cn/"
+    name: "Zhongguancun Academy",
+    icon: "./ZGCA.jpg",
+    homepage: "http://bjzgca.edu.cn/"
   },
   {
     address_flag: "3",
-    name: "Zhongguancun Academy",
-    icon: "./ZGCA.png",
+    name: "Zhongguancun Institute of Artificial Intelligence",
+    icon: "./ZGCA.jpg",
     homepage: "http://bjzgca.edu.cn/"
   },
   {
     address_flag: "4",
-    name: "Zhongguancun Institute of Artificial Intelligence",
-    icon: "./ZGCA.png",
-    homepage: "http://bjzgca.edu.cn/"
+    name: "Institute of Automation, Chinese Academy of Sciences",
+    icon: "./CASIA.jpeg",
+    homepage: "https://ia.cas.cn/"
+  },
+  {
+    address_flag: "5",
+    name: "Huazhong University of Science and Technology",
+    icon: "./HUST.jpg",
+    homepage: "https://www.hust.edu.cn/"
+  },
+  {
+    address_flag: "6",
+    name: "East China Normal University",
+    icon: "./ECNU.jpg",
+    homepage: "https://www.ecnu.edu.cn/"
   },
 ]
 
@@ -107,19 +137,19 @@ const buttons = [
   {
     disabled: false,
     name: "Paper",
-    link: "https://arxiv.org/abs/2505.03469",
+    link: "",
     component: Document,
   },
   {
     disabled: false,
     name: "Code",
-    link: "https://github.com/ZGCA-AI4Edu/LS-Mixture",
+    link: "",
     component: Files,
   },
   {
     disabled: false,
     name: "Model",
-    link: "https://huggingface.co/VLyb/s1-mix-32B",
+    link: "",
     component: MagicStick,
   },
   // {
