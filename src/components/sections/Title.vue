@@ -5,7 +5,7 @@ import { Document, Files, MagicStick, Picture, DataAnalysis, Film } from '@eleme
 import Banner from "./Banner.vue"
 
 // logo地址，没有则置为""即可
-const logo = ''
+const logo = './logo.png'
 
 // 标题
 const title = 'TrajSelector: Harnessing Latent Representations for Efficient and Effective Best-of-N in Large Reasoning Model'
