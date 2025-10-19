@@ -97,7 +97,7 @@ const addresses = [
   {
     address_flag: "3",
     name: "Zhongguancun Institute of Artificial Intelligence",
-    icon: "./ZGCA.jpg",
+    icon: "./ZGCI.jpg",
     homepage: "http://bjzgca.edu.cn/"
   },
   {
