@@ -42,6 +42,9 @@ export default {
 
 <template>
   <Title/>
-  <Abstract/>
-  <BibTeX/>
+
+  We will release the source code within a week.
+
+  <!-- <Abstract/> -->
+  <!-- <BibTeX/> -->
 </template>
