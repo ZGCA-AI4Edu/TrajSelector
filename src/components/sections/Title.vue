@@ -8,7 +8,7 @@ import Banner from "./Banner.vue"
 const logo = ''
 
 // 标题
-const title = 'TrajSelector: Harnessing Latent Representations for Efficient and Effective Best-of-$N$ in Large Reasoning Model'
+const title = 'TrajSelector: Harnessing Latent Representations for Efficient and Effective Best-of-N in Large Reasoning Model'
 
 // 标题颜色
 const title_color = '#000000'
