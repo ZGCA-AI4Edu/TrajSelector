@@ -76,7 +76,7 @@ const authors = [
     name: "Kai Chen",
     icon: "",
     homepage: "",
-    address_flag: "2,3",
+    address_flag: "2,3,*",
   },
 ]
 
