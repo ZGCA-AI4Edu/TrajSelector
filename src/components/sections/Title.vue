@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 
 import { ElIcon } from 'element-plus'
-import { Document, Files, MagicStick, Picture, DataAnalysis, Film } from '@element-plus/icons-vue'
+import { Document, Files, MagicStick, Picture, DataAnalysis, Film, HelpFilled } from '@element-plus/icons-vue'
 import Banner from "./Banner.vue"
 
 // logo地址，没有则置为""即可
@@ -142,9 +142,9 @@ const buttons = [
   },
   {
     disabled: false,
-    name: "Code",
-    link: "",
-    component: Files,
+    name: "GitHub",
+    link: "https://github.com/yubinCloud/TrajSelector",
+    component: HelpFilled,
   },
   {
     disabled: false,
